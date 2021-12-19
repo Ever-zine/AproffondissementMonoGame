@@ -8,6 +8,7 @@ namespace MonogameApprofondissementsMaisEnMieux
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private readonly ScreenManager _screenManager;
 
         public Game1()
         {
@@ -19,6 +20,7 @@ namespace MonogameApprofondissementsMaisEnMieux
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            //EH les camions ou quoi la
 
             base.Initialize();
         }
